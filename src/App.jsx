@@ -5,6 +5,7 @@ import LoginForm from "./components/LoginForm.jsx"
 import Tela from "./components/Tela.jsx"
 import FormularioContato from './components/FormularioContato.jsx';
 import FiltroProdutos from './components/FiltroProdutos.jsx';
+import Carrinho from './components/Carrinho.jsx';
  function App(){
   return (
     <div>
@@ -12,10 +13,11 @@ import FiltroProdutos from './components/FiltroProdutos.jsx';
      <Contador/>
      <FormularioContato />
      <FiltroProdutos/>
+     <Carrinho/>
     </div>
   )
  }
 
- 
+
  export default App;
  
