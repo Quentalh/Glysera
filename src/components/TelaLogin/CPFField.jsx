@@ -10,4 +10,4 @@ function CPFField(){
         </div>
     );
 }
-export default CPFField
+export default CPFField;
