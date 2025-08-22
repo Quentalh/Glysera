@@ -1,8 +1,11 @@
 import PasswordInput from "./PasswordInput.jsx";
+import styles from "./Login.module.css";
+
 function Password(){
+
     return (
-        <div className="form-field">
-            <label>Senha </label>
+        <div className={styles.fieldSenha}>
+            <label>SENHA &nbsp;</label>
             <PasswordInput />
         </div>
     );

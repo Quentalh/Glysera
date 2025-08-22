@@ -1,0 +1,81 @@
+.botao{
+  width: 150px;
+  height: 25px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: transform 0.3s; 
+  color: #fff;
+  background-color: #3FBFAD;
+}
+
+.botao:hover {
+  background-color: #A8E6CF;
+  transform: scale(1.1);
+}
+
+.titulo{
+  margin-bottom: 25px;
+  color: #344955;
+  font-size: 24px;
+}
+
+.logo{
+  width: 600px;
+  height: auto;
+}
+
+.formSenha{
+   width: 250px;
+  padding: 12px 14px;
+  border: 1px solid #DCE5E3;
+  border-radius: 12px;
+  background: #FFFFFF;
+  color: #1a1f36;
+  font-size: 15px;
+  transition: all 0.2s ease;
+
+}
+
+.formSenha:focus {
+  border-color: #3FBFAD; 
+  box-shadow: 0 0 0 4px rgba(63, 191, 173, 0.2); 
+  outline: none;
+}
+
+.formCPF{
+   width: 250px;
+  padding: 12px 14px;
+  border: 1px solid #DCE5E3;
+  border-radius: 12px;
+  background: #FFFFFF;
+  color: #1a1f36;
+  font-size: 15px;
+  transition: all 0.2s ease;
+
+}
+
+.formCPF:focus {
+  border-color: #3FBFAD; 
+  box-shadow: 0 0 0 4px rgba(63, 191, 173, 0.2); 
+  outline: none;
+}
+
+.fieldCPF{
+   font-size: 14px;
+  font-weight: 600;
+  color: #344955;
+  display: block;
+  margin-bottom: 6px;
+
+}
+
+.fieldSenha{
+   font-size: 14px;
+  font-weight: 600;
+  color: #344955;
+  display: block;
+  margin-bottom: 6px;
+
+}
