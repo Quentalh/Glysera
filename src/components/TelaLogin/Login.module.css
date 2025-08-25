@@ -1,3 +1,14 @@
+.Login {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+  background-color: #ffffff;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  border: 0;
+  padding: 0;
+}
 .botao{
   width: 150px;
   height: 25px;
@@ -14,7 +25,14 @@
   background-color: #A8E6CF;
   transform: scale(1.1);
 }
-
+a{
+  grid-column:4/6;
+  grid-row:5/6;
+}
+h2{
+  grid-column:4/6;
+  grid-row:2/3;
+}
 .titulo{
   margin-bottom: 25px;
   color: #344955;
@@ -24,6 +42,8 @@
 .logo{
   width: 600px;
   height: auto;
+  grid-column: 4/6;
+  grid-row: 1/2;
 }
 
 .formSenha{
@@ -53,7 +73,6 @@
   color: #1a1f36;
   font-size: 15px;
   transition: all 0.2s ease;
-
 }
 
 .formCPF:focus {
@@ -68,7 +87,9 @@
   color: #344955;
   display: block;
   margin-bottom: 6px;
-
+  grid-column: 4/6;
+  grid-row: 3/4;
+  padding-left: 20.5px;
 }
 
 .fieldSenha{
@@ -77,5 +98,7 @@
   color: #344955;
   display: block;
   margin-bottom: 6px;
+  grid-column: 4/6;
+  grid-row: 4/5;
 
 }
