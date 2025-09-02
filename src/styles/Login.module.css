@@ -1,0 +1,84 @@
+.container{
+  display: block;
+}
+
+.logo{
+  width: 600px;
+  height: auto;
+}
+
+.title{
+  margin-bottom: 25px;
+  color: #344955;
+  font-size: 24px;
+}
+
+.textUser {
+   font-size: 14px;
+  font-weight: 600;
+  color: #344955;
+  display: block;
+  margin-bottom: 6px;
+ 
+}
+
+.textAcess {
+   font-size: 14px;
+  font-weight: 600;
+  color: #344955;
+  display: block;
+  margin-bottom: 6px;
+}
+
+.cardUser{
+  width: 250px;
+  padding: 12px 14px;
+  border: 1px solid #DCE5E3;
+  border-radius: 12px;
+  background: #FFFFFF;
+  color: #1a1f36;
+  font-size: 15px;
+  transition: all 0.2s ease;
+
+}
+
+.cardUser:focus {
+  border-color: #3FBFAD; 
+  box-shadow: 0 0 0 4px rgba(63, 191, 173, 0.2); 
+  outline: none;
+}
+
+.cardAcess{
+   width: 250px;
+  padding: 12px 14px;
+  border: 1px solid #DCE5E3;
+  border-radius: 12px;
+  background: #FFFFFF;
+  color: #1a1f36;
+  font-size: 15px;
+  transition: all 0.2s ease;
+}
+
+.cardAcess:focus {
+  border-color: #3FBFAD; 
+  box-shadow: 0 0 0 4px rgba(63, 191, 173, 0.2); 
+  outline: none;
+}
+
+.btnLogin {
+  width: 150px;
+  height: 25px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: transform 0.3s; 
+  color: #fff;
+  background-color: #3FBFAD;
+}
+
+.btnLogin:hover {
+  background-color: #84d8b9; 
+  cursor: pointer;
+  transform: scale(1.1);
+}
