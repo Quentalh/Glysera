@@ -2,7 +2,14 @@
   display: flex;
 
 }
-
+main {
+  grid-column: 4/6;
+  grid-row: 2/3;
+}
+footer {
+  grid-column: 4/6;
+  grid-row: 10/11;
+}
 .title {
   background-color: aquamarine;
   font-size: 25px;

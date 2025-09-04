@@ -12,7 +12,7 @@
   top: 0;
   background-color: #e0ffff;
   color: #333333;
-  padding: 14px 20px;
+  padding: 13px 20px;
   cursor: pointer;
   font-size: 18px;
   z-index: 10;
@@ -43,16 +43,19 @@
 
 .menu li {
   border-bottom: 1px solid #c8e8ff;
+  height: 59px;
 }
 
 .logout {
   margin-top: auto;
 }
-
+a{
+  height: 20px;
+}
 .link {
   color: #333333;
   display: block;
-  padding: 14px 20px;
+  padding: 20px 20px;
   text-decoration: none;
   font-family: 'Inter', sans-serif;
   transition: background 0.3s;
