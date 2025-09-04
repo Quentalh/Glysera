@@ -1,18 +1,37 @@
 .container{
-  display: block;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+  background-color: #ffffff;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  border: 0;
+  padding: 0;
 }
 
 .logo{
   width: 600px;
   height: auto;
+  grid-column: 4/6;
+  grid-row: 1/2;
 }
 
 .title{
   margin-bottom: 25px;
   color: #344955;
   font-size: 24px;
+  grid-column:4/6;
+  grid-row:2/3;
 }
-
+.LoginForm{
+  grid-column: 4/6;
+  grid-row: 3/4;
+}
+a{
+  grid-column: 4/6;
+  grid-row: 5/6;
+}
 .textUser {
    font-size: 14px;
   font-weight: 600;
